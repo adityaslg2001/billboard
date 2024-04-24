@@ -1,0 +1,242 @@
+@import url(https://db.onlinewebfonts.com/c/15e10e275ea9924d0350e569a211d6a8?family=Mongoose+Regular);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mongoose Regular";
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;  
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+    /* background-color: black; */
+    /* border: 2px solid red; */
+}
+
+#back{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    /* border: 2px solid yellow; */
+}
+
+#back img{
+    width: 100%;
+    height: 100%;
+    /* background-size: contain; */
+    object-fit: cover;
+    background-position: bottom 20px;
+
+}
+
+#top{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    /* border: 2px solid red; */
+    top: 0;
+    left: 0;
+    pointer-events: none;
+
+}
+
+#working-area{
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    height: 100vh;
+    /* background-color: black; */
+    max-width: 1920px;
+    /* border: 2px solid red; */
+}
+
+#nav{
+    display: flex;
+    width: 100%; /*100% of parent i.e 100% of working-area*/
+    padding: 20px 0px; /* top right bottom left*/
+    justify-content: space-between;
+    pointer-events: all;
+}
+
+#nav img{
+    height: 30px;
+    filter: invert(100%);
+    
+    
+}
+#nleft{
+    display: flex;
+    gap: 50px;
+    align-items:end;
+
+}
+#nleft a{
+    color: white;
+    text-decoration: none;
+    font-family: "Mongoose Regular";
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+}
+
+#nright{
+    display: flex;
+    gap: 50px;
+    align-items:end;
+
+}
+#nright a{
+    color: white;
+    text-decoration: none;
+    font-family: "Mongoose Regular";
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+}
+#hero{
+    position: absolute;             /*to center div*/
+    top: 60%;                       /*to center div*/
+    display: flex;                  /*to center div*/
+    width: 100%;
+
+    transform: translate(0%,-50%);  /*to center div*/
+    /* background-color: white; */
+    /* align-items: center; */
+    justify-content: space-between;
+
+
+}
+#heroleft{
+    /* background-color: red; */
+    
+    min-width: 50%;
+    
+}
+#heroright{
+    /* background-color: blue; */
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    border: 1px solid white;
+}
+.weeknd-top{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    
+}
+
+#heroleft .elem{
+    height: 7.5vw;
+    position: relative;
+    overflow: hidden;
+    
+}
+#heroleft .elem h1:nth-child(1){
+    top: 0;
+
+}
+#heroleft .elem h1{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    line-height: 1;
+    color: white;
+    font-size: 7vw;
+}
+#heroleft button{
+    padding: 1vw 4vw;
+    font-size: 4.5vw;
+    margin-top: 2vw;
+    font-weight: 550;
+    letter-spacing: 3px;
+    pointer-events: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: 5px solid white;
+    
+
+}
+
+#heroright #side-img{
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+    /* background-color: beige; */
+    background-image: url(images/weeknd-side.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px ;
+    border: 1px solid white;
+    
+}
+
+.mid-words{
+   
+text-align: left;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: 500;
+}
+
+#heroright p:nth-child(3){
+    margin-bottom: 30px; 
+    border: 1px solid white; 
+    
+}
+
+#centeredDiv {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    padding: 20px;
+    border-radius: 5px;
+    height: 500px;
+    width: 500px;
+  }
+
+  #h1Content{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+  }
+  #paragraphDiv{
+    font-size: 20px;
+    color: white;
+  }
+
+.weeknd{
+    background-color: red;
+}
+.dua{
+    background-color: brown;
+}
+.harry{
+    background-color: orangered
+    
+}
+.swift{
+    background-color: gold;
+}
+.ed{
+    background-color: blueviolet
+}
